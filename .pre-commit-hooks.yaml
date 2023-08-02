@@ -1,0 +1,13 @@
+- id: build
+  name: build
+  description: Building App
+  entry: ./gradlew build
+  pass_filenames: false
+  language: system
+
+- id: assemblePhoneDebug
+  name: assemblePhoneDebug
+  description: assemble App
+  entry: ./gradlew assemblePhoneDebug
+  pass_filenames: false
+  language: system
